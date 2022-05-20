@@ -449,8 +449,15 @@ a {
 }
 .content-6:hover{
   background-color:aqua;
+
+
 }
 
+.logo44:hover{
+  display: none;
+
+
+}
 
 .blok-content-6-text{
   width: 230px;
@@ -463,4 +470,12 @@ a {
 
 .white{
   color:white;
+}
+.logo44{
+  position: absolute;
+  top:25px;
+  left:1000px;
+}
+#logo44{
+  width:200px;
 }
