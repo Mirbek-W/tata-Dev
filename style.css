@@ -994,6 +994,8 @@ a {
     text-decoration: none;
     font-size: larger;
   }
+
+
   .menu{
     
     position: fixed;
@@ -1062,7 +1064,7 @@ a {
   
   .content-2 {
     position: relative;
-    left:25px;
+    left:55px;
     top: 50px;
     width:100%;
     height: auto;
@@ -1105,7 +1107,7 @@ a {
   
     position: absolute;
     top: 0px;
-    left: 350px;
+    left: 30px;
   }
   
   .page-1 {
@@ -1119,7 +1121,7 @@ a {
   
   .page {
     height: 560px;
-    width: 260px;
+    width:70%;
     padding: 15px;
     position: relative;
   
@@ -1189,7 +1191,7 @@ a {
   }
   .content-4{
     position: relative;
-    top:1430px;
+    top:2530px;
     left:0px;
     width:100%;
     height: 200px;
@@ -1197,10 +1199,10 @@ a {
   }
   
   .pos-text{
-    width: 700px;
-    height:180px;
+    width:100%;
+    height:auto;
     position: relative;
-    left:0px;
+    left:-50px;
     top:0px;
   
   }
@@ -1208,12 +1210,14 @@ a {
     position: absolute;
     top:0px;
     left:70px;
+    font-size: x-small
     
   }
   .iop2{
     position: absolute;
     top:40px;
     left:70px;
+    font-size: x-small;
     
     
   }
@@ -1240,17 +1244,15 @@ a {
   
   .content-5{
     position: absolute;
-    top: 2300px;
-  
-    width:100%;
-    height: auto;
-  
-  
+    top: 3200px;
+    left:-20px;
+    width:50%;
+    background-color:red;
   }
   .text-content-5{
     position: absolute;
     top:0px;
-    left: 550px;
+    left:150px;
   
   }
   
@@ -1434,7 +1436,7 @@ a {
     width:100%;
     height:200px;
     position: absolute;
-    top:3250px;
+    top:5150px;
   
   }
   .content-6:hover{
@@ -1522,7 +1524,7 @@ a {
   
   .button-page{
     position:absolute;
-    top:550px;
+    top:480px;
     left:70px;
   }
   
@@ -1533,7 +1535,7 @@ a {
   .content-7{
    
     position:absolute;
-    top:3400px;
+    top:5300px;
     left:0px;
     width:100%;
     height:400px;
@@ -1567,7 +1569,7 @@ a {
     height:850px;
     background-color:rgb(78, 129, 129);
     position:absolute;
-    top: 3400px;
+    top: 6200px;
     left:0px;
   }
   .vid{ 
