@@ -978,9 +978,8 @@ a {
 
 /*finish 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111*/
 
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:900px){
   
-
 
   ul li {
     display: inline; /* Отображать как строчный элемент  или по моему показывает отменяет none*/
@@ -1001,7 +1000,7 @@ a {
     top: 0%;
     left: 0%;
     width: 100%;
-    height: 8%;
+    height:40px;
     background-color: white;
     z-index: 99999;
   }
@@ -1027,8 +1026,8 @@ a {
   
   
   #img-size {
-    width: 95px;
-    height: 45px;
+    width: 85px;
+    height: 35px;
   }
   
   
@@ -1049,32 +1048,34 @@ a {
   .content-1 {
     position: relative;
     top: 40px;
+    left:0px;
     width: 100%;
-    height: 600px;
+    height:auto;
     background-color: aqua;
   }
   .img-blok {
     position: relative;
-    left: 340px;
-    top: 100px;
-    width: 500px;
+    left: 30%;
+    top:20%;
+    width:50%;
   }
   
   .content-2 {
     position: relative;
-    left:25%;
+    left:25px;
     top: 50px;
-    width: 600px;
+    width:100%;
     height: auto;
   }
   .control {
-    width: 250px;
-    height: 210px;
+    width:150px;
+    height:140px;
     float: left;
     background-color: white;
     margin: 15px;
     border-radius: 15px;
     border-right: 1px solid #c4c4c4;
+  
   }
   
   .control:hover {
@@ -1083,8 +1084,8 @@ a {
   
   .control-1 {
     background-color: aqua;
-    width: 250px;
-    height: 210px;
+    width: 150px;
+    height: 140px;
     float: left;
     margin: 15px;
     border-radius: 15px;
@@ -1095,8 +1096,9 @@ a {
     height:auto;
   
     position: relative;
-    top: 550px;
+    top: 450px;
     left: 0px;
+    
   
   }
   .text {
@@ -1109,8 +1111,8 @@ a {
   .page-1 {
     position: absolute;
     top: 150px;
-    left:140px;
-    width:1000px;
+    left:150px;
+    width:100%;
     height: 800px;
   
   }
@@ -1146,18 +1148,26 @@ a {
   }
   .icon{
       position: relative;
-      top:21px;
-      left:22px ;
-      width:40px;
+      top:13px;
+      left:-10px ;
+      width:20px;
       height: auto;
+  }
+  
+  .text-content-2{
+    font-size: x-small;
+    position: relative;
+    top:0px;
+    left: -20px;
+  
   }
   
   
   .white-1{
       position: relative;
-      left:160px;
-      top:35px;
-      font-size:300%;
+      left:10%;
+      top:5%;
+      font-size:100%;
       color: white;
   }
   .white-2{
@@ -1169,6 +1179,7 @@ a {
   }
   .wihite-2{
       color: #5F5C5C;
+      font-size: x-small;
   }
   
   .fixed-text{
@@ -1400,6 +1411,11 @@ a {
   }
   
   
+  .block{
+    width:100%;
+    height: auto;
+  }
+  
   .block-content-9{
     position:absolute;
     left:3px;
@@ -1444,7 +1460,7 @@ a {
   .logo44{
     position: absolute;
     top:25px;
-    left:600px;
+    left:700px;
   }
   #logo44{
     width:200px;
@@ -1488,7 +1504,9 @@ a {
     border-radius:15px;
   }
   
-
+  .button-ot:hover{
+    background-color: #36BEBA;
+  }
   .center-9{
     position:absolute;
     top:10px;
@@ -1537,7 +1555,12 @@ a {
     left:600px;
     
   }
-
+  .hover1{
+    color:rgb(114, 153, 153);
+  }
+  .hover1:hover{
+    color:black;
+  }
   
   .content-8{
     width:100%;
@@ -1581,5 +1604,17 @@ a {
   .cont{
     display:none;
   }
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 }
